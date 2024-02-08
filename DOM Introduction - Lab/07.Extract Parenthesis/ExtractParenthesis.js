@@ -12,7 +12,7 @@ function extract() {
 
     while (match) {
 
-        array.push(`${match[1]}; `);
+        array.push(`${match[1]}`);
         match = pattern.exec(text);
 
     }
